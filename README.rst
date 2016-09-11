@@ -30,7 +30,7 @@ Authors
 Main authors:
 
 - Marco Bonzanini (`@MarcoBonzanini <http://www.twitter.com/marcobonzanini>`_)
-- Miguel Martinez-Alvarez (`@MiguelMAlvarez <http://www.twitter.com/miguelmalvarez`)
+- Miguel Martinez-Alvarez (`@MiguelMAlvarez <http://www.twitter.com/miguelmalvarez>`)
 
 Slides
 -----
