@@ -51,5 +51,13 @@ Slides
 License
 -----
 
-MIT
+Code (mainly in `notebooks` folder) under MIT license.
+
+Documentation and slides under CC-BY license.
+
+Data
+-----
+
+- Documents in `data/recipes` are public domain from Project Gutenberg
+- Documents in `data/pyconuk2016` are the abstracts from https://github.com/PyconUK/2016.pyconuk.org
 
