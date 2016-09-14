@@ -1,0 +1,5 @@
+title: 'High School Pythonistas: What PYNAM did next.'
+subtitle:
+speaker: jessica-upani
+---
+Everything from a lack of teachers to dysfunctional computer labs has led to a loss of interest in Junior Computer studies learners registering for the subject in their senior grades. These has led to yet a bigger problem which is what I want to address in my talk. PYNAM is short for Python Namibia. It is a Python programming society. We established PYNAM during the Feb 2015 PyCon Namibia conference. We primarily aim at bringing the Python Community in Namibia together and to promote Python to the young children through our school outreach programs. This year we are hosting a first ever programming day where the learners get to showcase their software and also raise money to help fix the computer lab at the school. My talk will report about the programs that the learners will create, the whole experience of developing the systems and organizing the event.
