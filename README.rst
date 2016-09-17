@@ -29,10 +29,24 @@ Step 3 - install libraries::
 
 This will download and install NLTK, scikit-learn and jupyter (plus dependencies).
 
-Step 4 - run Jupyter::
+NLTK requires some data to be installed separately (more details on [the NLTK website](http://www.nltk.org/data.html "NLTK data download")).
+
+From the command line, you can download the required packages::
+
+    python -m nltk.downloader punkt stopwords reuters
+
+Alternatively, from a Python interactive shell::
+
+    >>> import nltk
+    >>> nltk.download()
+
+Then use the GUI to select the requires packages (punkt, stopwords, reuters).
+
+Tip: you can use "all" as package name to install all the NLTK data. This will download approx. 2Gb and if we all do it at the same time we'll kill the conference wi-fi :)
+
+Finally - run Jupyter::
 
     jupyter notebook
-
 
 
 Authors
