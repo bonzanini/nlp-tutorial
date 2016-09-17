@@ -15,7 +15,7 @@ Step 1 - clone this repo::
 
 Step 2 - create and activate a Python virtual environment::
 
-    virtualenv --python=python3 nlp-venv
+    virtualenv nlp-venv
     source nlp-venv/bin/activate
 
 Step 2 (alternative) - create a Conda environment::
@@ -29,7 +29,7 @@ Step 3 - install libraries::
 
 This will download and install NLTK, scikit-learn and jupyter (plus dependencies).
 
-NLTK requires some data to be installed separately (more details on [the NLTK website](http://www.nltk.org/data.html "NLTK data download")).
+NLTK requires some data to be installed separately (more details on `the NLTK website <http://www.nltk.org/data.html>`_).
 
 From the command line, you can download the required packages::
 
@@ -60,7 +60,7 @@ Main authors:
 Slides
 -----
 
-...
+PyCon UK 2016 Tutorial: `presentations/pyconuk-slides.pdf`
 
 License
 -----
