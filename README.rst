@@ -42,7 +42,7 @@ Alternatively, from a Python interactive shell::
 
 Then use the GUI to select the requires packages (punkt, stopwords, reuters).
 
-Tip: even if you can use "all" as package name to install all the NLTK data, it'ss not a great thing to do over a flakey conference wi-fi. This will download approx. 2Gb and if we all do it at the same time we'll kill the conference wi-fi :)
+Tip: even if you can use "all" as package name to install all the NLTK data, it's not a great thing to do over a flakey conference wi-fi. This will download approx. 2Gb and if we all do it at the same time we'll kill the conference wi-fi :)
 
 Finally - run Jupyter::
 
