@@ -48,6 +48,7 @@ Finally - run Jupyter::
 
     jupyter notebook
 
+In order to test that your environment is correctly set. Please open the notebook "00 Environment Test" and follow the instructions.
 
 Authors
 -----
