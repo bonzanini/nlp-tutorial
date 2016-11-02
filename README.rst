@@ -3,6 +3,11 @@ Tutorial: Natural Language Processing in Python
 
 This repo contains material for a workshop on Natural Language Processing with Python.
 
+Presentations:
+
+- PyCon UK 2016: 3h session (slides ``presentations/2016-pyconuk-slides.pdf``)
+- PyCon Ireland 2016: 1.5h session (slides ``presentations/2016-pyconie-slides.pdf``)
+
 Environment Set up
 -----
 
@@ -57,7 +62,7 @@ matplotlib backend issues
 
 There might be a few issues related to ``matplotlib`` backends as described `on their documentation <http://matplotlib.org/faq/virtualenv_faq.html>`_, especially on macOS.
 
-By editing/creating the file ``~/.matplotlib/matplotlibrc`` with the following line:
+By editing/creating the file ``~/.matplotlib/matplotlibrc`` with the following line::
 
     backend: TkAgg
 
