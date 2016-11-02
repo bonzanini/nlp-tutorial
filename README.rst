@@ -6,7 +6,9 @@ This repo contains material for a workshop on Natural Language Processing with P
 Environment Set up
 -----
 
-The code has been tested with Python `3.4` and `3.5`. This paragraph describes how to set up your environment locally.
+The code has been tested with Python ``3.4`` and ``3.5``. Support for Python ``2.7`` is best-effort, if you find an issue please report it.
+
+This paragraph describes how to set up your environment locally.
 
 Step 1 - clone this repo::
 
@@ -50,6 +52,17 @@ Finally - run Jupyter::
 
 In order to test that your environment is correctly set. Please open the notebook "00 Environment Test" and follow the instructions.
 
+matplotlib backend issues
+-----
+
+There might be a few issues related to ``matplotlib`` backends as described `on their documentation <http://matplotlib.org/faq/virtualenv_faq.html>`_, especially on macOS.
+
+By editing/creating the file ``~/.matplotlib/matplotlibrc`` with the following line:
+
+    backend: TkAgg
+
+the issue should be fixed. If not, please refer to the `matplotlib docs <http://matplotlib.org/faq/virtualenv_faq.html>`_
+
 Authors
 -----
 
@@ -58,7 +71,7 @@ Main authors:
 - Marco Bonzanini (`@MarcoBonzanini <http://www.twitter.com/marcobonzanini>`_)
 - Miguel Martinez-Alvarez (`@MiguelMAlvarez <http://www.twitter.com/miguelmalvarez>`_)
 
-Slides
+Presentations
 -----
 
 PyCon UK 2016 Tutorial: `presentations/pyconuk-slides.pdf`
