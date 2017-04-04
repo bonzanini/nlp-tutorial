@@ -3,10 +3,23 @@ Tutorial: Natural Language Processing in Python
 
 This repo contains material for a workshop on Natural Language Processing with Python.
 
-Presentations:
+Audience
+-----
+
+The target audience of this workshop are students, researchers, developers, hobbyists and anyone interested in knowing more about Natural Language Processing and Text Analytics.
+
+Some very basic knowledge of Python is assumed (e.g. if you have seen some Python script before, you're good to go), but no previous NLP knowledge is required.
+
+
+Presentations
+-----
+
+Different versions of this workshop have been delivered at different events:
 
 - PyCon UK 2016: 3h session (slides ``presentations/2016-pyconuk-slides.pdf``)
 - PyCon Ireland 2016: 1.5h session (slides ``presentations/2016-pyconie-slides.pdf``)
+- PyCon Italy 2017: 3.5h session (slides ``presentations/2017-pyconitaly-slides.pdf``)
+
 
 Environment Set up
 -----
@@ -57,6 +70,7 @@ Finally - run Jupyter::
 
 In order to test that your environment is correctly set. Please open the notebook "00 Environment Test" and follow the instructions.
 
+
 matplotlib backend issues
 -----
 
@@ -68,6 +82,7 @@ By editing/creating the file ``~/.matplotlib/matplotlibrc`` with the following l
 
 the issue should be fixed. If not, please refer to the `matplotlib docs <http://matplotlib.org/faq/virtualenv_faq.html>`_
 
+
 Authors
 -----
 
@@ -76,10 +91,6 @@ Main authors:
 - Marco Bonzanini (`@MarcoBonzanini <http://www.twitter.com/marcobonzanini>`_)
 - Miguel Martinez-Alvarez (`@MiguelMAlvarez <http://www.twitter.com/miguelmalvarez>`_)
 
-Presentations
------
-
-PyCon UK 2016 Tutorial: `presentations/pyconuk-slides.pdf`
 
 License
 -----
@@ -87,6 +98,7 @@ License
 Code (mainly in `notebooks` folder) under MIT license.
 
 Documentation and slides under CC-BY license.
+
 
 Data
 -----
